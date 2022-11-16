@@ -1,0 +1,105 @@
+.header{
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+    background-color: whitesmoke;
+    color: #4835d4;
+    }
+    .type1{
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #4835d4;
+    color: white;
+    }
+
+
+.container{
+  padding: 100px;
+  background-color:white;
+}
+
+.card{
+border-radius: 10px 10px 10px 10px;
+  width: 300px;
+  height: 420px;
+  background-color:whitesmoke;
+  border-radius: 10px 10px;
+}
+
+
+h3{
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 1rem;
+}
+
+.iconM{
+  font-size: 18px;
+  margin-left: 170px;
+  color: #2f89fc;
+}
+
+.icon{
+  margin-right: 8px;
+}
+
+.body li{
+  transition: 1s all;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  padding: 15px;
+  margin-left: -40px;
+  margin-top: 0px;
+  color: rgb(128, 192, 226);
+  list-style: none;
+  display: block;
+  border-top-right-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+}
+
+li:hover{
+  transition: 1s all;
+  color: #2f89fc;
+  background-color: rgba(42, 56, 65, 0.82);
+  border-top-right-radius: 10px 10px;
+  border-bottom-right-radius: 10px 10px;
+  cursor: pointer;
+}
+
+.body > li{
+  float: left;
+}
+
+.body li ul{
+  background: #1E2B32;
+  margin-left: 280px;
+  margin-top: -38px;
+  display: none;
+  position: absolute;
+  border-top-right-radius: 15px 15px;
+  border-bottom-right-radius: 15px 15px;
+}
+
+.body li:hover > ul{
+  display: block;
+  cursor: pointer;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
